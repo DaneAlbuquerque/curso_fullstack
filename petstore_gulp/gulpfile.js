@@ -11,8 +11,8 @@ function tarefasCSS(cb) {
         './node_modules/bootstrap/dist/css/bootstrap.css', 
         './vendor/owl/css/owl.css',
         './node_modules/@fortawesome/fontawesome-free/css/fontawesome.css',
-        './vendor/jquery-ui/jequery-ui.css',
-        './src/css/style.css'
+        './vendor/jquery-ui/jquery-ui.css',
+        './dist/css/style.css'
     ])
         .pipe(concat('styles.css'))
         .pipe(cssmin())
