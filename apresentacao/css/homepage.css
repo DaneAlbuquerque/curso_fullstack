@@ -1,0 +1,137 @@
+
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+  html {
+    width: 100%;   
+    font-family: 'Quicksand', sans-serif;
+    color: black;	 
+  }
+
+  header {
+    background-color: #8E3200;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    font-family:'Dancing Script', cursive;
+    color: #FFEBC1;
+   }
+
+  .nav1 {
+    position: relative;
+    float: left;
+    width: 30%;
+    text-decoration: none;
+    background: #ffebc1;
+    padding: 20px;
+    border-right: solid 1px black;   	
+  }
+ 
+ 
+  nav ul {
+    list-style-type: none;
+    padding: 0;			  		  		  
+  }
+
+  nav ul :hover {
+    font-weight: bolder;
+  }
+
+  .menu {
+      color: #A64B2A;      
+  }
+
+ .rede ul li {
+      display: inline-block;
+      padding-right: 4px;
+  }
+
+  .email {
+    margin-top: 160px;
+    display: flex;
+  }
+
+  div {
+    padding: 5px;
+  }
+  
+  article {
+    float: left;
+    padding: 41px;
+    width: 70%;
+    background-color: #FFEBC1;
+    color: #8E3200;
+    text-align: center;
+  }
+
+ 
+  .picture {
+    border-radius: 50%;
+    filter: sepia(5%) grayscale(0%) drop-shadow(8px 5px 8px);
+  }
+
+  .picture:hover {
+    filter: grayscale(100%) drop-shadow(8px 5px 5px);
+  }
+
+  blockquote {
+    border: solid 1px black;
+    padding: 5px;
+  }
+
+  section::after {
+    background:#FFEBC1;
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  footer {
+    background-color: #8E3200;
+    padding: 10px;
+    text-align: center;
+    color: #FFEBC1;
+    
+  }
+
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  
+  @media (max-width: 728px) {
+    nav1, article {
+      width: 100%;
+      height: unset;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    nav1, article {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  @media (max-width: 425px) {
+    nav1, nav ul, nav {
+    width: 100%;
+    height: auto;
+    }
+    article {
+      width: 70%;
+    }
+    .picture {
+    width: 8px 8px;
+    }
+    p {
+      font-size: 12px;
+    }
+    blockquote {
+      font-size: 12px;
+    }
+    .email {
+      font-size: 8px !important;
+      margin-top: 380px ;
+    }
+  }

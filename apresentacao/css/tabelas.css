@@ -1,0 +1,53 @@
+
+
+table {
+	border: 1px solid;
+	background: #ffe3a6;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table tr {
+	color: #8E3200;
+	border: 1px solid #8E3200;
+}
+
+table th,
+table td {
+	padding: 1rem;
+	font-size: 18px;
+	text-align: right;
+	vertical-align: middle;
+}
+
+table tr td:first-child {
+	text-align: left;
+	font-weight: bold;
+}
+
+table th {
+	background-color: #a64b2a;
+	color: #FFEBC1;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: left;
+}
+
+.table-container {
+	padding: 2rem 1rem;
+}
+
+.table-container h3 {
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+.table-container tfoot {
+	background: #FFEBC1;
+}
+
+.table-container tfoot td {
+	font-weight: bold;
+}
+
+

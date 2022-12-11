@@ -1,0 +1,277 @@
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #f5f5f5; 
+    font-family: 'Inconsolata', monospace;
+}
+
+.main-container {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container {
+    display: block;
+    float: left;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1198px;
+    width: 98%;
+}
+
+header {
+    background: #d6b5b5;
+    display: block;
+    float: left;
+    padding: 20px 0;
+    width: 100%;
+    border-bottom: 1px solid #9E7676;
+}
+
+h1 {
+    font-size: 2.4rem;
+    color: #594545;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #594545;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.8rem;
+    color: #594545;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+h4 {
+    font-size: 1.6rem;
+    color: #594545;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.4;
+    padding-left: 30px;
+    text-align: justify;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+#tenho-interesse {
+    background-color: #9E7676;
+    width: 100%;
+}
+
+#tenho-interesse form,
+.cognito.c-med .c-forms-form,
+.cognito.c-med .c-forms-form div, div.cog-form__content {
+    background-color: #9E7676 !important;
+    padding-left: 10px;
+}
+
+#tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
+#tenho-interesse .cognito label[for], .cognito input[type=radio], .cognito input[type=checkbox] {
+    color: #000000;
+}
+
+ol {
+    margin-left: 30px;
+}
+
+ol li {
+    font-size: 1.4rem;
+    color: #454545;
+}
+ul {
+    list-style: none;
+}
+
+section {
+    background-color: #fff;
+    display: block;
+    float: left;
+    font-size: 1.5rem; /* equivalente a 15px */ 
+    padding: 20px 0;
+    width: 100%;
+}
+
+section nav {
+    display: block;
+    float: left;
+    width: 30%;
+}
+
+nav li {
+    background-color: #d6b5b5;
+    margin: 1px 20px 1px 0;
+    padding: 10px;
+}
+
+nav li:hover {
+    background-color: #9E7676;
+}
+
+nav a {
+    text-decoration: none;
+    color: #594545;
+}
+
+nav a:hover {
+    color: #9E7676;
+}
+
+section article {
+    display: block;
+    float: left;
+    width: 70%;
+}
+
+footer {
+    background-color: #815B5B;  
+    display: block;
+    float: left;
+    padding: 20px 0;
+    width: 100%;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+
+footer small {
+    font-size: 80%;
+    display: block;
+}
+
+.cognito {
+    height: 375px !important;
+    overflow: hidden !important;
+}
+
+#banner {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 35vw;
+}
+
+.legenda-container {
+    float: right;
+    margin-top: 25px;
+    margin-right: px;
+}
+
+.legenda {
+    padding: 20px 20px ;
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245, .6);
+}
+
+.legenda h5, 
+.legenda h4 {
+    color: #594545;
+    font-size: 13px;
+}
+
+.cta {
+    display: inline;
+    background-color: #594545;
+    color: #fff;
+    font-size: 15px;
+    box-shadow: 1px 1px 4px #9E7676;
+    padding: 10px 15px;
+    width: auto;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 50px;
+    float: right;
+    margin-top: 10px;
+
+}
+
+#saiba-mais {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+
+}
+
+#saiba-mais p,
+#saiba-mais img {
+    width: 45%;
+    display: block;
+    float: left;
+    padding: 20px;
+}
+dl {
+    margin: 20px 0;
+    padding-left: 30px;
+}
+dt {
+    font-weight: 400;
+    font-size: 17px;
+}
+dd {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+@media (max-width: 425px) {
+    section nav,
+    section article {
+        width: 100%;
+    } 
+   
+    .container {
+        padding-left: 1%;
+        padding-right: 1%;
+        
+    }
+}
+
+
+@media (max-width: 320px) {
+    section {
+        padding: 2px;
+    }
+    h1 {
+        font-size: 20px !important;
+    }
+    ul {
+        padding: 0px;
+    } 
+    li {
+        margin-right: 1px !important; 
+    }
+    img {
+        width: 90%;
+    }
+    footer, header {
+        width: 87%;
+    }
+    #tenho-interesse {
+        width: 98%;
+    }
+         
+}

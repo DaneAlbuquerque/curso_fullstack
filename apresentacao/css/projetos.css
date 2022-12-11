@@ -1,0 +1,17 @@
+@import url('tabelas.css');
+
+nav.nav1 {
+    padding-bottom: 20px;
+}
+
+a.email{
+    margin-top: 278px;
+}
+
+article {
+    padding-bottom: 180px;
+}
+
+table {
+ filter: drop-shadow(8px 5px 5px)
+}

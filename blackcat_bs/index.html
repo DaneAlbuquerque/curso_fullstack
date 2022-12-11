@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./libs/bootstrap1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./libs/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./style/custom.css">
+
+
+    <title>BlackCat Café</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>BlackCat Café</h1>
+                </div>
+                <div class="col">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link active" href="">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#vagas">Vagas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./cadastro.html" target="_blank">Cadastro</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+ 
+    <div class="container">
+        
+        <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active ">
+                    <div class="ratio ratio-21x9">
+                        <img src="./imagens/cf2.jpg" class="d-block w-100 opacity-75" alt="xícara de café">
+                    </div>
+                    <div class="carousel-caption">
+                        <h5>Nova Unidade em São Paulo</h5>
+                        <a class="btn btn-light stretched-link">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="ratio ratio-21x9">
+                        <img src="./imagens/farm.jpg" class="d-block w-100 opacity-75" alt="grãos de café">
+                    </div>
+                    <div class="carousel-caption">
+                        <h5>Venha conhecer o processo do nossos cafés</h5>
+                        <a class="btn btn-light stretched-link">Agende uma visita</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="ratio ratio-21x9">
+                        <img src="./imagens/cf3.jpg" class="d-block w-100 opacity-75" alt="bebendo café">
+                    </div>
+                    <div class="carousel-caption">
+                        <h5>Nova linha Sensassões</h5>
+                        <a class="btn btn-light stretched-link">Conhecer</a>
+                    </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        
+    </div>
+        
+    
+       
+    <section id="sobre">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <h2>Sobre nós</h2>
+                    <p>A cafeteria BlackCat nasceu em 2010 quando a Dayane Albuquerque herdou uma fazenda de café do seu avô. Desde então ela se apaixonou por todo o processo do café e quis compartilhar com as pessoas o melhor que o café pode nos dar.</p>
+                    <p> A primeira unidade foi aberta no centro de São Paulo, na famosa Avenida Paulista, com o grande sucesso, vieram as outras unidades. Hoje já somos mais 25 unidades e queremos expandir para outros estados.</p>
+                    <p>Contamos com uma grande e seletiva linha de cafés gourmet, recentemente vencedor do prêmio "El Café". Nossos produtos são orgânicos e de altíssima qualidade. </p>
+                    <a class="btn btn-lg btn-success" data-bs-toggle="modal" data-bs-target="#bt0">Nossa Fazenda</a>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <img src="./imagens/img1.jpg" alt="Café em grãos e xícara" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos">
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <h2>Produtos</h2>
+
+                    <div class="card">
+                        <img src="./imagens/chemex.jpg" alt="Chemex" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Chemex</h5>
+                            <p class="card-text">Jarra de filtrar café de vidro, elegante e prática</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1" >ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./imagens/cafe.jpg" alt="Saca de café" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Café Sensações</h5>
+                            <p class="card-text">Linha café Sensações aromatizado com Chocolate e Menta</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" href="#modal-2">ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./imagens/copo.jpg" alt="Caneca" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Caneca Retornável</h5>
+                            <p class="card-text">Adquira nossas canecas retornáveis e ajude o mundo a ser mais sustentável</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" href="#modal-3">ver produto</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="vagas">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2>Trabalhe Conosco</h2>
+                    <p>Venha fazer parte da nossa família, preencha o formulário com seus dados e nos conte um pouco sobre você.</p>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <form class="form">
+
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="nome" placeholder="digite seu nome">
+                        </div>
+
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="email" placeholder="digite seu email">
+                        </div>
+
+                        <div class="input-group">
+                            <textarea  class="form-control" name="" rows="5"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-lg btn-success">Enviar</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <div class="modal fade" id="bt0">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Nossa fazenda</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Situada no interior de Minas Gerais, nossa fazenda conta com 4.400 hectares de pura beleza. Nosso roteiro cultural oferece um passeio guiado entre as plantações de café contando nossa história e como funciona todo o processo do café. Você pode ter a experiência de colher, selecionar e escolher o tipo de torra e moagem para o seu próprio café!<p>Ao final do passeio, desfrute de um lindo e delicioso piquenique ao pôr do Sol.</p></h6>
+
+                    <img src="./imagens/picnic.jpg" alt="Caneca" class="img-fluid">
+                   
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Chemex</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira o tamanho e os preços</h6>
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>Tamanho</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>P 300mL</td>
+                                <td>R$ 85,00</td>
+                            </tr>
+                            <tr>
+                                <td>M 400mL</td>
+                                <td>R$ 120,00</td>
+                            </tr>
+                            <tr>
+                                <td>G 1L</td>
+                                <td>R$ 180,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="modal-2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Café Sensações Chocolate&Menta</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira o tamanho e os preços</h6>
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>Tamanho</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Pacote 280g</td>
+                                <td>R$ 35,00</td>
+                            </tr>
+                            <tr>
+                                <td>àcote 320g</td>
+                                <td>R$ 62,00</td>
+                            </tr>
+                            <tr>
+                                <td>Pacote 500g</td>
+                                <td>R$ 150,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="modal-3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Caneca Retornável</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira o tamanho e os preços</h6>
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>Tamanho</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Caneca 250mL</td>
+                                <td>R$ 30,00</td>
+                            </tr>
+                            <tr>
+                                <td>Copo 300mL</td>
+                                <td>R$ 45,00</td>
+                            </tr>
+                            <tr>
+                                <td>Copo 500mL</td>
+                                <td>R$ 60,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./libs/bootstrap1/js/bootstrap.bundle.min.js"></script>
+    <script src="./libs/fontawesome/js/fontawesome.min.js"></script>
+
+    <script>
+        var myCarousel = document.querySelector('#carouselExampleFade')
+        var carousel = new bootstrap.Carousel(myCarousel,
+        {
+            pause: false,
+            interval: 5000
+        })
+    </script>
+</body>
+</html>
